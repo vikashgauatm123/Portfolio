@@ -104,15 +104,17 @@ section{
     align-items: center;
 }
 .main-container .image{
-    width: 500px;
-    height: 80vh;
-    border: 5px solid #418bd5 ;
-    border-radius:100% ;
+    width: 16rem;
+    height: 0%;              
+    border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 0 50px #418bd5;
+    border: 5px double rgb(36, 84, 126);
+   
+   
 }
 .main-container .image img{
     width: 100%;
+    
 }
 .main-container .image:hover{
     animation: animate 1.5s ease-in-out infinite;
@@ -174,7 +176,7 @@ section{
 }
 .content button{
     width: 50%;
-    height: 5vh;
+    height: 6vh;
     margin: 30px;
     background-color:    #eff0f6;
     color: #eff0f6;
@@ -212,7 +214,7 @@ section{
         display: block;
     }
     .main-container .content{
-        width: 80rem;
+        width: 80%;
     }
     .social-links i{
         width: 2.5rem;
@@ -221,8 +223,8 @@ section{
     }
     .main-container .image{
         z-index: -1;
-        width: 50rem;
-        height: 60rem;
+        width: 50%;
+        height: 60%;
     }
 }
 @media (max-width:440px){
